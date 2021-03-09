@@ -1,4 +1,5 @@
-class EMI Calculator{
-public static void main(){
+class Emi_Calculator{
+public static void main(String args[]){
+System.out.println("hello jenkins");
 }
 }
