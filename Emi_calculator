@@ -1,1 +1,4 @@
-
+class EMI Calculator{
+public static void main(){
+}
+}
