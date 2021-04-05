@@ -1,0 +1,31 @@
+<div>
+    <ng-content></ng-content>
+
+    <table>
+        <thead>
+            <tr>
+                <th>S_No</th>
+                <th>First_Name</th>
+                <th>Last_Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Age</th>
+                <th>Password</th>
+            </tr>
+        </thead>
+            <tbody>
+                <tr *ngFor="let persons of person;let i=index">
+                    <td>{{persons.S_No}}</td>
+                    <td>{{persons.first_name}}</td>
+                    <td>{{persons.last_name}}</td>
+                    <td>{{persons.email}}</td>
+                    <td>{{persons.gender}}</td>
+                    <td>{{persons.Age}}</td>
+                    <td>{{persons.Password}}</td>
+                </tr>
+                <td></td>
+            </tbody>
+       
+    </table>
+    <!-- {{person}} -->
+</div>

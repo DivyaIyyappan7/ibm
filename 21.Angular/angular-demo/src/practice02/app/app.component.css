@@ -1,0 +1,24 @@
+.c{
+    /* /* float:left; */
+    /* width:50%;  */
+    margin:10px;
+    padding:10px;
+    border:solid red;
+    /* position:absolute; */
+}
+.p{
+    /* /* float:right; */
+    /* width:50%;  */
+    margin:10px;
+    padding:10px;
+    border:solid green;
+    /* position:absolute; */
+}
+.b{
+    /* /* float:right; */
+    /* width:50%;  */
+    margin:10px;
+    padding:10px;
+    border:solid black;
+    /* position:absolute; */
+}
